@@ -16,5 +16,8 @@ namespace BuyFoodTogetherApi.Models
         public string Title { get; set; }
         [BsonElement("Person")]
         public string Person { get; set; }
+
+        [BsonElement("IsCompleted")]
+        public bool IsCompleted { get; set; }
     }
 }
